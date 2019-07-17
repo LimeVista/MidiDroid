@@ -18,7 +18,9 @@ allprojects {
 **Step 2**. Add the dependency in your module build.gradle:
 ```
 dependencies {
-        compile 'com.github.pdrogfer:MidiDroid:v1.0'
+        compile 'com.github.pdrogfer:MidiDroid:v1.1'
+        // fork version
+        implementation 'com.github.LimeVista:MidiDroid:v1.1.1'
 }
 ```
 Use it and enjoy. Contributions and pull requests are certainly welcome.
